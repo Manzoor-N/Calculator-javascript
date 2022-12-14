@@ -1,12 +1,15 @@
- h1{
-    text-align: center;
-    color: rgb(20, 81, 187);
+ *{
+   margin: 0;
+   padding: 0;
+   border: none;
  }
+ 
  .container{
     width: 460px;
     height: 540px;
-    background-color: rgb(42, 40, 40);
+    background-color:#2B3A55;
     margin: auto;
+    margin-top: 80px;
     padding: 10px;
     border-radius: 10px;
  }
@@ -17,28 +20,36 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
  #screen{
-    background-color: rgb(109, 157, 225);
+    background-color:#F2E5E5;
     height:80px;
     width: 440px;
     margin: 5px;
     font-size: 4rem;
+    margin-top: 20px;
     text-align: right;
     border-radius: 10px;
  }
 .btn{
-    background-color: rgba(209, 175, 139, 0.512);
+    background-color:#CE7777;
     color: aliceblue;
     width: 92px;
     height: 70px;
     font-size: 2rem;
     margin: 10px;
+    margin-top:3px;
     border-radius: 15px;
+    border: none;
+}
+.buttons{
+   margin-top:50px;
 }
 .clear{
   background-color: rgb(222, 60, 60);
 }
 .op{
-    background-color: rgb(98, 117, 153);
+    background-color:#E8C4C4;
+    color: #2B3A55;
+    border: none;
 }
 .btn:hover{
     border: solid 2px brown;
